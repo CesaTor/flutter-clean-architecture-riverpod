@@ -1,12 +1,12 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/foundation.dart';
-import 'package:flutter_project/configs/app_configs.dart';
-import 'package:flutter_project/shared/data/remote/network_service.dart';
-import 'package:flutter_project/shared/domain/models/either.dart';
-import 'package:flutter_project/shared/domain/models/response.dart' as response;
-import 'package:flutter_project/shared/exceptions/http_exception.dart';
-import 'package:flutter_project/shared/globals.dart';
-import 'package:flutter_project/shared/mixins/exception_handler_mixin.dart';
+import 'package:riverpod_clean/configs/app_configs.dart';
+import 'package:riverpod_clean/shared/data/remote/network_service.dart';
+import 'package:riverpod_clean/shared/domain/models/either.dart';
+import 'package:riverpod_clean/shared/domain/models/response.dart' as response;
+import 'package:riverpod_clean/shared/exceptions/http_exception.dart';
+import 'package:riverpod_clean/shared/globals.dart';
+import 'package:riverpod_clean/shared/mixins/exception_handler_mixin.dart';
 
 class DioNetworkService extends NetworkService with ExceptionHandlerMixin {
   final Dio dio;

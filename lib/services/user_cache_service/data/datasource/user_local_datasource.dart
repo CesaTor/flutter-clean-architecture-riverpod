@@ -1,10 +1,10 @@
 import 'dart:convert';
 
-import 'package:flutter_project/shared/data/local/storage_service.dart';
-import 'package:flutter_project/shared/domain/models/either.dart';
-import 'package:flutter_project/shared/domain/models/user/user_model.dart';
-import 'package:flutter_project/shared/exceptions/http_exception.dart';
-import 'package:flutter_project/shared/globals.dart';
+import 'package:riverpod_clean/shared/data/local/storage_service.dart';
+import 'package:riverpod_clean/shared/domain/models/either.dart';
+import 'package:riverpod_clean/shared/domain/models/user/user_model.dart';
+import 'package:riverpod_clean/shared/exceptions/http_exception.dart';
+import 'package:riverpod_clean/shared/globals.dart';
 
 abstract class UserDataSource {
   String get storageKey;

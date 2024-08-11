@@ -1,8 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_project/features/authentication/presentation/providers/auth_providers.dart';
-import 'package:flutter_project/features/authentication/presentation/providers/state/auth_state.dart';
-import 'package:flutter_project/features/authentication/presentation/widgets/auth_field.dart';
+import 'package:riverpod_clean/features/authentication/presentation/providers/auth_providers.dart';
+import 'package:riverpod_clean/features/authentication/presentation/providers/state/auth_state.dart';
+import 'package:riverpod_clean/features/authentication/presentation/widgets/auth_field.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../routes/app_route.dart';
@@ -11,7 +11,7 @@ import '../../../../routes/app_route.dart';
 class LoginScreen extends ConsumerWidget {
   static const routeName = '/loginScreen';
 
-  LoginScreen({Key? key}) : super(key: key);
+  LoginScreen({super.key});
 
   final TextEditingController usernameController =
       TextEditingController(text: 'kminchelle');

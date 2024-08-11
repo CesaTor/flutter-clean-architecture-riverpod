@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project/shared/theme/app_colors.dart';
-import 'package:flutter_project/shared/theme/test_styles.dart';
+import 'package:riverpod_clean/shared/theme/app_colors.dart';
+import 'package:riverpod_clean/shared/theme/test_styles.dart';
 
 class TextThemes {
   /// Main text theme

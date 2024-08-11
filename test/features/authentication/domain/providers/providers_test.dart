@@ -1,7 +1,7 @@
-import 'package:flutter_project/features/authentication/data/datasource/auth_remote_data_source.dart';
-import 'package:flutter_project/features/authentication/domain/providers/login_provider.dart';
-import 'package:flutter_project/features/authentication/domain/repositories/auth_repository.dart';
-import 'package:flutter_project/shared/domain/providers/dio_network_service_provider.dart';
+import 'package:riverpod_clean/features/authentication/data/datasource/auth_remote_data_source.dart';
+import 'package:riverpod_clean/features/authentication/domain/providers/login_provider.dart';
+import 'package:riverpod_clean/features/authentication/domain/repositories/auth_repository.dart';
+import 'package:riverpod_clean/shared/domain/providers/dio_network_service_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 

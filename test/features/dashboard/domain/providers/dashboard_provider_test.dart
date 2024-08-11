@@ -1,7 +1,7 @@
-import 'package:flutter_project/features/dashboard/data/datasource/dashboard_remote_datasource.dart';
-import 'package:flutter_project/features/dashboard/domain/providers/dashboard_providers.dart';
-import 'package:flutter_project/features/dashboard/domain/repositories/dashboard_repository.dart';
-import 'package:flutter_project/shared/domain/providers/dio_network_service_provider.dart';
+import 'package:riverpod_clean/features/dashboard/data/datasource/dashboard_remote_datasource.dart';
+import 'package:riverpod_clean/features/dashboard/domain/providers/dashboard_providers.dart';
+import 'package:riverpod_clean/features/dashboard/domain/repositories/dashboard_repository.dart';
+import 'package:riverpod_clean/shared/domain/providers/dio_network_service_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 

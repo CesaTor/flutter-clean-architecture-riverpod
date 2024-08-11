@@ -1,9 +1,9 @@
 //test for filename
-import 'package:flutter_project/shared/domain/models/either.dart';
-import 'package:flutter_project/features/dashboard/domain/repositories/dashboard_repository.dart';
-import 'package:flutter_project/features/dashboard/presentation/providers/state/dashboard_notifier.dart';
-import 'package:flutter_project/features/dashboard/presentation/providers/state/dashboard_state.dart';
-import 'package:flutter_project/shared/globals.dart';
+import 'package:riverpod_clean/shared/domain/models/either.dart';
+import 'package:riverpod_clean/features/dashboard/domain/repositories/dashboard_repository.dart';
+import 'package:riverpod_clean/features/dashboard/presentation/providers/state/dashboard_notifier.dart';
+import 'package:riverpod_clean/features/dashboard/presentation/providers/state/dashboard_state.dart';
+import 'package:riverpod_clean/shared/globals.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 import 'package:state_notifier_test/state_notifier_test.dart';

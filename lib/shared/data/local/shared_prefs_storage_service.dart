@@ -1,6 +1,6 @@
 import 'dart:async';
 
-import 'package:flutter_project/shared/data/local/storage_service.dart';
+import 'package:riverpod_clean/shared/data/local/storage_service.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class SharedPrefsService implements StorageService {

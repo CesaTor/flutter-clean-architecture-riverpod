@@ -2,16 +2,16 @@ import 'dart:async';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_project/features/dashboard/presentation/providers/dashboard_state_provider.dart';
-import 'package:flutter_project/features/dashboard/presentation/providers/state/dashboard_state.dart';
-import 'package:flutter_project/features/dashboard/presentation/widgets/dashboard_drawer.dart';
+import 'package:riverpod_clean/features/dashboard/presentation/providers/dashboard_state_provider.dart';
+import 'package:riverpod_clean/features/dashboard/presentation/providers/state/dashboard_state.dart';
+import 'package:riverpod_clean/features/dashboard/presentation/widgets/dashboard_drawer.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 @RoutePage()
 class DashboardScreen extends ConsumerStatefulWidget {
   static const String routeName = 'DashboardScreen';
 
-  const DashboardScreen({Key? key}) : super(key: key);
+  const DashboardScreen({super.key});
 
   @override
   ConsumerState<DashboardScreen> createState() => _DashboardScreenState();
@@ -75,16 +75,16 @@ class _DashboardScreenState extends ConsumerState<DashboardScreen> {
                 decoration: InputDecoration(
                   hintText: 'Search here',
                   hintStyle: Theme.of(context).textTheme.bodyMedium?.copyWith(
-                        color: Theme.of(context).colorScheme.onBackground,
+                        color: Theme.of(context).colorScheme.onSurface,
                       ),
                   focusedBorder: UnderlineInputBorder(
                     borderSide: BorderSide(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
                   ),
                   border: UnderlineInputBorder(
                     borderSide: BorderSide(
-                      color: Theme.of(context).colorScheme.onBackground,
+                      color: Theme.of(context).colorScheme.onSurface,
                     ),
                   ),
                 ),

@@ -1,16 +1,16 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_project/services/user_cache_service/domain/providers/current_user_provider.dart';
-import 'package:flutter_project/services/user_cache_service/domain/providers/user_cache_provider.dart';
-import 'package:flutter_project/shared/theme/app_theme.dart';
+import 'package:riverpod_clean/services/user_cache_service/domain/providers/current_user_provider.dart';
+import 'package:riverpod_clean/services/user_cache_service/domain/providers/user_cache_provider.dart';
+import 'package:riverpod_clean/shared/theme/app_theme.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../routes/app_route.dart';
 
 class DashboardDrawer extends ConsumerWidget {
   const DashboardDrawer({
-    Key? key,
-  }) : super(key: key);
+    super.key,
+  });
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -24,7 +24,7 @@ class DashboardDrawer extends ConsumerWidget {
             UserAccountsDrawerHeader(
               margin: EdgeInsets.zero,
               decoration: BoxDecoration(
-                color: Theme.of(context).colorScheme.background,
+                color: Theme.of(context).colorScheme.surface,
               ),
               accountName: Text(
                 '${currentUser?.firstName}',

@@ -1,4 +1,4 @@
-import 'package:flutter_project/shared/domain/models/product/product_model.dart';
+import 'package:riverpod_clean/shared/domain/models/product/product_model.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../../../fixtures/dashboard/dummy_productlist.dart';

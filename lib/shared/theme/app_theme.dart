@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_project/shared/data/local/storage_service.dart';
-import 'package:flutter_project/shared/domain/providers/shared_preferences_storage_service_provider.dart';
-import 'package:flutter_project/shared/globals.dart';
-import 'package:flutter_project/shared/theme/app_colors.dart';
-import 'package:flutter_project/shared/theme/test_styles.dart';
-import 'package:flutter_project/shared/theme/text_theme.dart';
+import 'package:riverpod_clean/shared/data/local/storage_service.dart';
+import 'package:riverpod_clean/shared/domain/providers/shared_preferences_storage_service_provider.dart';
+import 'package:riverpod_clean/shared/globals.dart';
+import 'package:riverpod_clean/shared/theme/app_colors.dart';
+import 'package:riverpod_clean/shared/theme/test_styles.dart';
+import 'package:riverpod_clean/shared/theme/text_theme.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final appThemeProvider = StateNotifierProvider<AppThemeModeNotifier, ThemeMode>(
@@ -45,7 +45,7 @@ class AppTheme {
         primary: AppColors.primary,
         secondary: AppColors.lightGrey,
         error: AppColors.error,
-        background: AppColors.black,
+        surface: AppColors.black,
       ),
       // backgroundColor: AppColors.black,
       scaffoldBackgroundColor: AppColors.black,

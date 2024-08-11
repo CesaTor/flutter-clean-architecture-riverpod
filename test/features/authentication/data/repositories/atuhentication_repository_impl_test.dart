@@ -1,9 +1,9 @@
-import 'package:flutter_project/features/authentication/data/datasource/auth_remote_data_source.dart';
-import 'package:flutter_project/features/authentication/data/repositories/authentication_repository_impl.dart';
-import 'package:flutter_project/features/authentication/domain/repositories/auth_repository.dart';
-import 'package:flutter_project/shared/domain/models/either.dart';
-import 'package:flutter_project/shared/domain/models/models.dart';
-import 'package:flutter_project/shared/exceptions/http_exception.dart';
+import 'package:riverpod_clean/features/authentication/data/datasource/auth_remote_data_source.dart';
+import 'package:riverpod_clean/features/authentication/data/repositories/authentication_repository_impl.dart';
+import 'package:riverpod_clean/features/authentication/domain/repositories/auth_repository.dart';
+import 'package:riverpod_clean/shared/domain/models/either.dart';
+import 'package:riverpod_clean/shared/domain/models/models.dart';
+import 'package:riverpod_clean/shared/exceptions/http_exception.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

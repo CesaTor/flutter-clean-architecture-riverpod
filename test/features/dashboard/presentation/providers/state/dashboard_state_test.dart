@@ -1,4 +1,4 @@
-import 'package:flutter_project/features/dashboard/presentation/providers/state/dashboard_state.dart';
+import 'package:riverpod_clean/features/dashboard/presentation/providers/state/dashboard_state.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

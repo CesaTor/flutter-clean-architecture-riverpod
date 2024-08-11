@@ -1,7 +1,7 @@
-import 'package:flutter_project/features/dashboard/data/datasource/dashboard_remote_datasource.dart';
-import 'package:flutter_project/shared/data/remote/network_service.dart';
-import 'package:flutter_project/shared/domain/models/response.dart';
-import 'package:flutter_project/shared/exceptions/http_exception.dart';
+import 'package:riverpod_clean/features/dashboard/data/datasource/dashboard_remote_datasource.dart';
+import 'package:riverpod_clean/shared/data/remote/network_service.dart';
+import 'package:riverpod_clean/shared/domain/models/response.dart';
+import 'package:riverpod_clean/shared/exceptions/http_exception.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

@@ -3,10 +3,10 @@ import 'dart:developer';
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_project/shared/data/remote/remote.dart';
-import 'package:flutter_project/shared/domain/models/either.dart';
-import 'package:flutter_project/shared/domain/models/response.dart' as response;
-import 'package:flutter_project/shared/exceptions/http_exception.dart';
+import 'package:riverpod_clean/shared/data/remote/remote.dart';
+import 'package:riverpod_clean/shared/domain/models/either.dart';
+import 'package:riverpod_clean/shared/domain/models/response.dart' as response;
+import 'package:riverpod_clean/shared/exceptions/http_exception.dart';
 
 mixin ExceptionHandlerMixin on NetworkService {
   Future<Either<AppException, response.Response>>

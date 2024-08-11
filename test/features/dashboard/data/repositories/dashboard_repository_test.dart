@@ -1,9 +1,9 @@
 //test for filename
-import 'package:flutter_project/shared/domain/models/either.dart';
-import 'package:flutter_project/features/dashboard/data/datasource/dashboard_remote_datasource.dart';
-import 'package:flutter_project/features/dashboard/data/repositories/dashboard_repository.dart';
-import 'package:flutter_project/features/dashboard/domain/repositories/dashboard_repository.dart';
-import 'package:flutter_project/shared/domain/models/paginated_response.dart';
+import 'package:riverpod_clean/shared/domain/models/either.dart';
+import 'package:riverpod_clean/features/dashboard/data/datasource/dashboard_remote_datasource.dart';
+import 'package:riverpod_clean/features/dashboard/data/repositories/dashboard_repository.dart';
+import 'package:riverpod_clean/features/dashboard/domain/repositories/dashboard_repository.dart';
+import 'package:riverpod_clean/shared/domain/models/paginated_response.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

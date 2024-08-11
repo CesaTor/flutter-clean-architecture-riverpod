@@ -1,7 +1,7 @@
 //
-import 'package:flutter_project/features/dashboard/domain/providers/dashboard_providers.dart';
-import 'package:flutter_project/features/dashboard/presentation/providers/state/dashboard_notifier.dart';
-import 'package:flutter_project/features/dashboard/presentation/providers/state/dashboard_state.dart';
+import 'package:riverpod_clean/features/dashboard/domain/providers/dashboard_providers.dart';
+import 'package:riverpod_clean/features/dashboard/presentation/providers/state/dashboard_notifier.dart';
+import 'package:riverpod_clean/features/dashboard/presentation/providers/state/dashboard_state.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 final dashboardNotifierProvider =

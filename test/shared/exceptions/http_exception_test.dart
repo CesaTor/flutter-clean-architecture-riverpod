@@ -1,4 +1,4 @@
-import 'package:flutter_project/shared/exceptions/http_exception.dart';
+import 'package:riverpod_clean/shared/exceptions/http_exception.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 void main() {

@@ -1,6 +1,6 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_project/features/splash/presentation/providers/splash_provider.dart';
+import 'package:riverpod_clean/features/splash/presentation/providers/splash_provider.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 import '../../../../routes/app_route.dart';
@@ -8,7 +8,7 @@ import '../../../../routes/app_route.dart';
 @RoutePage()
 class SplashScreen extends ConsumerStatefulWidget {
   static const String routeName = '/splashScreen';
-  const SplashScreen({Key? key}) : super(key: key);
+  const SplashScreen({super.key});
 
   @override
   ConsumerState<SplashScreen> createState() => _SplashScreenState();
@@ -35,7 +35,7 @@ class _SplashScreenState extends ConsumerState<SplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Theme.of(context).colorScheme.background,
+      backgroundColor: Theme.of(context).colorScheme.surface,
       body: const Center(
         child: Text(
           'Splash Screen',

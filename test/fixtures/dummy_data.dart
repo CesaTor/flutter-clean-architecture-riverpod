@@ -1,6 +1,6 @@
-import 'package:flutter_project/shared/domain/models/models.dart';
-import 'package:flutter_project/shared/domain/models/response.dart';
-import 'package:flutter_project/shared/exceptions/http_exception.dart';
+import 'package:riverpod_clean/shared/domain/models/models.dart';
+import 'package:riverpod_clean/shared/domain/models/response.dart';
+import 'package:riverpod_clean/shared/exceptions/http_exception.dart';
 
 import 'data/user_map.dart';
 

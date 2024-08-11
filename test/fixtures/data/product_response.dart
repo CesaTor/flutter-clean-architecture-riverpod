@@ -1,4 +1,4 @@
-import 'package:flutter_project/shared/globals.dart';
+import 'package:riverpod_clean/shared/globals.dart';
 
 Map<String, dynamic> productListMap({int? skip}) => {
       "products": List.generate(PRODUCTS_PER_PAGE, (index) => productMap),

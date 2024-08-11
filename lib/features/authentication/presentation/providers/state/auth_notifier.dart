@@ -1,8 +1,8 @@
-import 'package:flutter_project/features/authentication/domain/repositories/auth_repository.dart';
-import 'package:flutter_project/features/authentication/presentation/providers/state/auth_state.dart';
-import 'package:flutter_project/services/user_cache_service/domain/repositories/user_cache_repository.dart';
-import 'package:flutter_project/shared/domain/models/user/user_model.dart';
-import 'package:flutter_project/shared/exceptions/http_exception.dart';
+import 'package:riverpod_clean/features/authentication/domain/repositories/auth_repository.dart';
+import 'package:riverpod_clean/features/authentication/presentation/providers/state/auth_state.dart';
+import 'package:riverpod_clean/services/user_cache_service/domain/repositories/user_cache_repository.dart';
+import 'package:riverpod_clean/shared/domain/models/user/user_model.dart';
+import 'package:riverpod_clean/shared/exceptions/http_exception.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 class AuthNotifier extends StateNotifier<AuthState> {

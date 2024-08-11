@@ -1,5 +1,5 @@
-import 'package:flutter_project/shared/domain/models/parse_response.dart';
-import 'package:flutter_project/shared/domain/models/product/product_model.dart';
+import 'package:riverpod_clean/shared/domain/models/parse_response.dart';
+import 'package:riverpod_clean/shared/domain/models/product/product_model.dart';
 import 'package:flutter_test/flutter_test.dart';
 
 import '../../../fixtures/data/product_response.dart';

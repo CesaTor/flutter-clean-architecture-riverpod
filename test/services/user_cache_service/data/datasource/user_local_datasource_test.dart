@@ -1,5 +1,5 @@
-import 'package:flutter_project/services/user_cache_service/data/datasource/user_local_datasource.dart';
-import 'package:flutter_project/shared/data/local/storage_service.dart';
+import 'package:riverpod_clean/services/user_cache_service/data/datasource/user_local_datasource.dart';
+import 'package:riverpod_clean/shared/data/local/storage_service.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:mocktail/mocktail.dart';
 

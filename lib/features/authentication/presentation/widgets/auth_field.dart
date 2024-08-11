@@ -2,11 +2,11 @@ import 'package:flutter/material.dart';
 
 class AuthField extends StatelessWidget {
   const AuthField({
-    Key? key,
+    super.key,
     required this.hintText,
     this.obscureText = false,
     required this.controller,
-  }) : super(key: key);
+  });
   final String hintText;
   final bool obscureText;
   final TextEditingController controller;

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_project/main/app.dart';
-import 'package:flutter_project/main/app_env.dart';
-import 'package:flutter_project/main/observers.dart';
+import 'package:riverpod_clean/main/app.dart';
+import 'package:riverpod_clean/main/app_env.dart';
+import 'package:riverpod_clean/main/observers.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 
 void main() => mainCommon(AppEnvironment.PROD);

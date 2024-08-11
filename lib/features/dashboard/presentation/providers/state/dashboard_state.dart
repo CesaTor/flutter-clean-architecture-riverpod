@@ -1,6 +1,6 @@
 // ignore_for_file: public_member_api_docs, sort_constructors_first
 import 'package:equatable/equatable.dart';
-import 'package:flutter_project/shared/domain/models/product/product_model.dart';
+import 'package:riverpod_clean/shared/domain/models/product/product_model.dart';
 
 enum DashboardConcreteState {
   initial,

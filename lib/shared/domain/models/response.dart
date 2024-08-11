@@ -1,5 +1,5 @@
-import 'package:flutter_project/shared/domain/models/either.dart';
-import 'package:flutter_project/shared/exceptions/http_exception.dart';
+import 'package:riverpod_clean/shared/domain/models/either.dart';
+import 'package:riverpod_clean/shared/exceptions/http_exception.dart';
 
 class Response {
   final int statusCode;

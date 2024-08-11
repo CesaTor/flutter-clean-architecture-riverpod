@@ -1,4 +1,4 @@
-import 'package:flutter_project/shared/exceptions/http_exception.dart';
+import 'package:riverpod_clean/shared/exceptions/http_exception.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
 
 part 'auth_state.freezed.dart';
