@@ -340,8 +340,8 @@ file:///Users/cesator/.pub-cache/hosted/pub.dev/stack_trace-1.11.1/
 file:///Users/cesator/.pub-cache/hosted/pub.dev/stack_trace-1.11.1/lib/
 state_notifier
 2.12
-file:///Users/cesator/.pub-cache/hosted/pub.dev/state_notifier-0.7.2+1/
-file:///Users/cesator/.pub-cache/hosted/pub.dev/state_notifier-0.7.2+1/lib/
+file:///Users/cesator/.pub-cache/hosted/pub.dev/state_notifier-1.0.0/
+file:///Users/cesator/.pub-cache/hosted/pub.dev/state_notifier-1.0.0/lib/
 stream_channel
 2.19
 file:///Users/cesator/.pub-cache/hosted/pub.dev/stream_channel-2.1.2/
@@ -374,6 +374,10 @@ vector_math
 2.14
 file:///Users/cesator/.pub-cache/hosted/pub.dev/vector_math-2.1.4/
 file:///Users/cesator/.pub-cache/hosted/pub.dev/vector_math-2.1.4/lib/
+very_good_analysis
+3.4
+file:///Users/cesator/.pub-cache/hosted/pub.dev/very_good_analysis-6.0.0/
+file:///Users/cesator/.pub-cache/hosted/pub.dev/very_good_analysis-6.0.0/lib/
 vm_service
 3.3
 file:///Users/cesator/.pub-cache/hosted/pub.dev/vm_service-14.2.4/

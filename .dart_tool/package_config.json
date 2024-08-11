@@ -543,7 +543,7 @@
     },
     {
       "name": "state_notifier",
-      "rootUri": "file:///Users/cesator/.pub-cache/hosted/pub.dev/state_notifier-0.7.2+1",
+      "rootUri": "file:///Users/cesator/.pub-cache/hosted/pub.dev/state_notifier-1.0.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -594,6 +594,12 @@
       "rootUri": "file:///Users/cesator/.pub-cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
+    },
+    {
+      "name": "very_good_analysis",
+      "rootUri": "file:///Users/cesator/.pub-cache/hosted/pub.dev/very_good_analysis-6.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "3.4"
     },
     {
       "name": "vm_service",
@@ -650,7 +656,7 @@
       "languageVersion": "3.0"
     }
   ],
-  "generated": "2024-08-11T17:41:07.503740Z",
+  "generated": "2024-08-11T17:55:11.028062Z",
   "generator": "pub",
   "generatorVersion": "3.5.0",
   "flutterRoot": "file:///Users/cesator/development/flutter",
